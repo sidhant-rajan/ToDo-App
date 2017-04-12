@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>ToDo App</title>
+  <link rel="stylesheet"
+  href="assets/bower_components/angular-material/angular-material.css">
+</head>
+
+<body ng-app="taskApp" ng-cloak>
+
+
+    <div layout="row" layout-wrap>
+
+
+
+   <div flex="100">
+     <md-toolbar>
+     <div class="md-toolbar-tools">
+      <md-button class="md-icon-button" aria-label="Settings"> 
+    </md-button>
+    <h2>
+     <span class="md-title">ToDo App</span>
+   </h2>
+ </div>
+ <md-divider></md-divider>
+</md-toolbar> <!-- The content area -->
+
+</div>
+
+<!-- 20% padding to the left -->
+<div ui-view style="width:100%;"></div>
+<div flex="100"></div>
+
+</div>
+
+
+<script src="assets/bower_components/angular/angular.js"></script>
+<script src="assets/bower_components/angular-aria/angular-aria.js"></script>
+<script src="assets/bower_components/angular-animate/angular-animate.js"></script>
+<script src="assets/bower_components/angular-material/angular-material.js"></script>
+
+
+
+<script src="assets/js/app.js"></script>
+<script src="assets/js/services.js"></script>
+<script src="assets/js/controllers.js"></script>
+<script src="assets/js/angular-material-icons.min.js"></script> 
+<link rel='stylesheet' href='assets/loading-bar.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='assets/js/loading-bar.min.js'></script>
+<script src="assets/js/angular-ui-router.min.js"></script>
+</body>
+
+</html>
